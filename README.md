@@ -1,8 +1,10 @@
 # README
 
+This is a todo-list API where users can manage their to-do lists and todo items.
+
 API Endpoints
 
-Our API will expose the following RESTful endpoints.
+This API will expose the following RESTful endpoints.
 
 |**Endpoint**           |**Functionality**              |
 |-----------------------|:-----------------------------:|
