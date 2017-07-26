@@ -27,16 +27,18 @@ gem 'bcrypt', '~> 3.1.7'
 group :test do
   gem 'factory_girl_rails', '~> 4.0'
   gem 'shoulda-matchers', '~> 3.1'
-  gem 'faker'
   gem 'database_cleaner'
 end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'active_model_serializers', '~> 0.10.0'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'faker'
+  gem 'jwt'
   gem 'pry'
   gem 'rspec-rails'
-  gem 'jwt'
+  gem 'will_paginate', '~> 3.1.0'
 end
 
 group :development do

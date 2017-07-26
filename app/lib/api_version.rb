@@ -1,3 +1,4 @@
+# app/lib/api_version.rb
 class ApiVersion
   attr_reader :version, :default
 
@@ -10,7 +11,7 @@ class ApiVersion
   def matches?(request)
     check_headers(request.headers) || default
   end
-  
+
   private
 
   def check_headers(headers)
